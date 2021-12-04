@@ -28,6 +28,8 @@ ul {
 }
 img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 /* header styles */
@@ -216,7 +218,7 @@ img {
   padding: 94px 0;
 }
 .portfolio-title {
-  display: none;
+  visibility: hidden;
 }
 .filter-list {
   display: flex;
@@ -261,12 +263,12 @@ img {
 .project-card {
   flex-basis: calc(100% / 3 - 60px);
   margin: 0 30px 30px 0;
-  border: 1px solid #eeeeee;
 }
 
 .project-card-description {
   text-align: start;
   padding: 20px 24px;
+  border: 1px solid #eeeeee;
 }
 .project-title {
   margin: 0 0 4px;
