@@ -218,7 +218,7 @@ img {
   padding: 94px 0;
 }
 .portfolio-title {
-  visibility: hidden;
+  display: none;
 }
 .filter-list {
   display: flex;
