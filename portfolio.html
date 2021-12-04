@@ -9,6 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 
     <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
@@ -16,7 +20,7 @@
   </head>
   <body>
     <header>
-      <div class="header-section">
+      <div class="header-section container">
         <a href="#" class="logo"><span class="logo-part">Web</span>Studio</a>
         <nav>
           <ul class="nav-list">
@@ -47,7 +51,7 @@
     </header>
     <main>
       <!-- Portfolio section -->
-      <section>
+      <section class="portfolio-section container">
         <h1 class="portfolio-title">Примеры работ</h1>
         <ul class="filter-list">
           <li><button type="button" class="filter-button button-change-color">Все</button></li>
@@ -65,101 +69,129 @@
         <ul class="project-list">
           <li class="project-card">
             <a href="#">
-              <img src="./images/port1.jpg" width="340" alt="Открытый ноутбук с сайтом на экране" />
-              <p class="project-title">Технокряк</p>
-              <span class="project-type">Веб-сайт</span>
+              <img src="./images/port1.jpg" width="370" alt="Открытый ноутбук с сайтом на экране" />
+              <div class="project-card-description">
+                <p class="project-title">Технокряк</p>
+                <span class="project-type">Веб-сайт</span>
+              </div>
             </a>
           </li>
+
           <li class="project-card">
             <a href="#">
-              <img src="./images/port2.jpg" width="340" alt="Два баскетболиста борятся за мяч" />
-              <p class="project-title">Постер New Orlean vs Golden Star</p>
-              <span class="project-type">Дизайн</span>
+              <img src="./images/port2.jpg" width="370" alt="Два баскетболиста борятся за мяч" />
+              <div class="project-card-description">
+                <p class="project-title">Постер New Orlean vs Golden Star</p>
+                <span class="project-type">Дизайн</span>
+              </div>
             </a>
           </li>
+
           <li class="project-card">
             <a href="#">
               <img
                 src="./images/port3.jpg"
-                width="340"
+                width="370"
                 alt="Логотип ресторана с рисунком рыбы на фоне"
               />
-              <p class="project-title">Ресторан Seafood</p>
-              <span class="project-type">Приложение</span>
+              <div class="project-card-description">
+                <p class="project-title">Ресторан Seafood</p>
+                <span class="project-type">Приложение</span>
+              </div>
             </a>
           </li>
+
           <li class="project-card">
             <a href="#">
-              <img src="./images/port4.jpg" width="340" alt="Черные наушники" />
-              <p class="project-title">Проект Prime</p>
-              <span class="project-type">Маркетинг</span></a
-            >
+              <img src="./images/port4.jpg" width="370" alt="Черные наушники" />
+              <div class="project-card-description">
+                <p class="project-title">Проект Prime</p>
+                <span class="project-type">Маркетинг</span>
+              </div>
+            </a>
           </li>
+
           <li class="project-card">
             <a href="#">
-              <img src="./images/port5.jpg" width="340" alt="Две коробки, крафтовая и светлая" />
-              <p class="project-title">Проект Boxes</p>
-              <span class="project-type">Приложение</span></a
-            >
+              <img src="./images/port5.jpg" width="370" alt="Две коробки, крафтовая и светлая" />
+              <div class="project-card-description">
+                <p class="project-title">Проект Boxes</p>
+                <span class="project-type">Приложение</span>
+              </div>
+            </a>
           </li>
+
           <li class="project-card">
             <a href="#">
               <img
                 src="./images/port6.jpg"
-                width="340"
+                width="370"
                 alt="Компьютерный монитор с сайтом на экране"
               />
-              <p class="project-title">Inspiration has no Borders</p>
-              <span class="project-type">Веб-сайт</span>
+              <div class="project-card-description">
+                <p class="project-title">Inspiration has no Borders</p>
+                <span class="project-type">Веб-сайт</span>
+              </div>
             </a>
           </li>
+
           <li class="project-card">
             <a href="#">
               <img
                 src="./images/port7.jpg"
-                width="340"
+                width="370"
                 alt="Открытый журнал с текстом и фотографиями на страницах"
               />
-              <p class="project-title">Издание Limited Edition</p>
-              <span class="project-type">Дизайн</span>
+              <div class="project-card-description">
+                <p class="project-title">Издание Limited Edition</p>
+                <span class="project-type">Дизайн</span>
+              </div>
             </a>
           </li>
+
           <li class="project-card">
             <a href="#">
               <img
                 src="./images/port8.jpg"
-                width="340"
+                width="370"
                 alt="Белая бирка с надписью на крафтовой веревке "
               />
-              <p class="project-title">Проект LAB</p>
-              <span class="project-type">Маркетинг</span></a
-            >
+              <div class="project-card-description">
+                <p class="project-title">Проект LAB</p>
+                <span class="project-type">Маркетинг</span>
+              </div>
+            </a>
           </li>
+
           <li class="project-card">
             <a href="#">
               <img
                 src="./images/port9.jpg"
-                width="340"
+                width="370"
                 alt="Открытый ноутбук с приложением на экране"
               />
-              <p class="project-title">Growing Business</p>
-              <span class="project-type">Приложение</span></a
-            >
+              <div class="project-card-description">
+                <p class="project-title">Growing Business</p>
+                <span class="project-type">Приложение</span>
+              </div>
+            </a>
           </li>
         </ul>
       </section>
     </main>
     <footer class="footer-section">
-      <a class="footer-logo" href="#"><span class="logo-part">Web</span>Studio</a>
-      <address class="footer-address">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a class="footer-address-link link-color-change" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="footer-address-link link-color-change" href="tel:380991111111"
-          >+38 099 111 11 11</a
-        >
-      </address>
+      <div class="container">
+        <a class="footer-logo" href="#"><span class="logo-part">Web</span>Studio</a>
+        <address class="footer-address">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="footer-address-link link-color-change" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="footer-address-link link-color-change" href="tel:380991111111"
+            >+38 099 111 11 11</a
+          >
+        </address>
+      </div>
     </footer>
   </body>
 </html>

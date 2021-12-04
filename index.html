@@ -4,146 +4,166 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Студия</title>
   </head>
   <body>
     <header>
-      <div class="header-section">
+      <div class="header-section container">
         <a href="#" class="logo"><span class="logo-part">Web</span>Studio</a>
         <nav>
           <ul class="nav-list">
-            <li><a class="nav-link nav-link-color link-color-change curent" href="#">Студия</a></li>
+            <li><a class="nav-link link-color-change curent" href="#">Студия</a></li>
             <li>
-              <a class="nav-link nav-link-color link-color-change" href="./portfolio.html"
-                >Портфолио</a
-              >
+              <a class="nav-link link-color-change" href="./portfolio.html">Портфолио</a>
             </li>
             <li><a class="nav-link nav-link-color link-color-change" href="#">Контакты</a></li>
           </ul>
         </nav>
         <ul class="address-list">
           <li>
-            <a
-              class="address-link address-link-color link-color-change"
-              href="mailto:info@example.com"
+            <a class="address-link link-color-change" href="mailto:info@example.com"
               >info@example.com</a
             >
           </li>
           <li>
-            <a class="address-link address-link-color link-color-change" href="tel:380991111111"
-              >+38 099 111 11 11</a
-            >
+            <a class="address-link link-color-change" href="tel:380991111111">+38 099 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
+
     <main>
       <!-- Hero section -->
       <section class="hero-section">
-        <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <div class="container">
+          <h1 class="hero-title">ЭФФЕКТИВНЫЕ РЕШЕНИЯ <br />ДЛЯ ВАШЕГО БИЗНЕСА</h1>
+          <button class="hero-button" type="button">Заказать услугу</button>
+        </div>
       </section>
+
       <!-- why we section -->
-      <section>
-        <ul class="why-we-list">
-          <li>
-            <h3 class="why-we-title title-color">Внимание к деталям</h3>
-            <p class="why-we-content">
-              Идейные соображения, а также начало повседневной работы по формированию позиции.
-            </p>
-          </li>
-          <li>
-            <h3 class="why-we-title title-color">Пунктуальность</h3>
-            <p class="why-we-content">
-              Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
-            </p>
-          </li>
-          <li>
-            <h3 class="why-we-title title-color">Планирование</h3>
-            <p class="why-we-content">
-              Равным образом консультация с широким активом в значительной степени обуславливает.
-            </p>
-          </li>
-          <li>
-            <h3 class="why-we-title title-color">Современные технологии</h3>
-            <p class="why-we-content">
-              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
-            </p>
-          </li>
-        </ul>
+      <section class="why-we-section section">
+        <div class="container">
+          <ul class="why-we-list">
+            <li class="why-we-card">
+              <h3 class="why-we-title title-color">Внимание к деталям</h3>
+              <p class="why-we-content">
+                Идейные соображения, а также начало повседневной работы по формированию позиции.
+              </p>
+            </li>
+            <li class="why-we-card">
+              <h3 class="why-we-title title-color">Пунктуальность</h3>
+              <p class="why-we-content">
+                Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
+              </p>
+            </li>
+            <li class="why-we-card">
+              <h3 class="why-we-title title-color">Планирование</h3>
+              <p class="why-we-content">
+                Равным образом консультация с широким активом в значительной степени обуславливает.
+              </p>
+            </li>
+            <li class="why-we-card">
+              <h3 class="why-we-title title-color">Современные технологии</h3>
+              <p class="why-we-content">
+                Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- What we do section -->
-      <section>
-        <h2 class="what-we-do-title title-color">Чем мы занимаемся</h2>
-        <ul class="what-we-do-list">
-          <li>
-            <img src="./images/img1what.jpg" alt="человек печатает на клавиатуре" width="370" />
-          </li>
-          <li>
-            <img src="./images/img2what.jpg" alt="женщина держит в реках телефон" width="370" />
-          </li>
-          <li>
-            <img
-              src="./images/img3what.jpg"
-              alt="планшет со цветовым спектром на экране"
-              width="370"
-            />
-          </li>
-        </ul>
+      <section class="what-we-do-section section">
+        <div class="container">
+          <h2 class="what-we-do-title title-color">Чем мы занимаемся</h2>
+          <ul class="what-we-do-list">
+            <li>
+              <img src="./images/img1what.jpg" alt="человек печатает на клавиатуре" width="370" />
+            </li>
+            <li>
+              <img src="./images/img2what.jpg" alt="женщина держит в реках телефон" width="370" />
+            </li>
+            <li>
+              <img
+                src="./images/img3what.jpg"
+                alt="планшет со цветовым спектром на экране"
+                width="370"
+              />
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Our team section -->
-      <section class="our-team-section">
-        <h2 class="our-team-title title-color">Наша команда</h2>
-        <ul class="our-team-list">
-          <li class="our-team-card">
-            <img src="./images/img1team.jpg" alt="мужчина в очках с бородой" width="270" />
-            <p class="our-team-unit">Игорь Демьяненко</p>
-            <span class="our-team-position">Product Designer</span>
-          </li>
-          <li class="our-team-card">
-            <img src="./images/img2team.jpg" alt="женщина в очках в темном пиджаке" width="270" />
-            <p class="our-team-unit">Ольга Репина</p>
-            <span class="our-team-position">Frontend Developer</span>
-          </li>
-          <li class="our-team-card">
-            <img
-              src="./images/img3team.jpg"
-              alt="Мужчина с бородой в светлой рубашке"
-              width="270"
-            />
-            <p class="our-team-unit">Николай Тарасов</p>
-            <span class="our-team-position">Marketing</span>
-          </li>
-          <li class="our-team-card">
-            <img
-              src="./images/img4team.jpg"
-              alt="Мужчина в очках с бородой в темной футболке"
-              width="270"
-            />
-            <p class="our-team-unit">Максим Ермаков</p>
-            <span class="our-team-position">UI Designer</span>
-          </li>
-        </ul>
+      <section class="our-team-section section">
+        <div class="container">
+          <h2 class="our-team-title title-color">Наша команда</h2>
+          <ul class="our-team-list">
+            <li class="our-team-card">
+              <img src="./images/img1team.jpg" alt="мужчина в очках с бородой" width="270" />
+              <p class="our-team-description">
+                <span class="our-team-unit">Игорь Демьяненко</span>
+                <span class="our-team-position">Product Designer</span>
+              </p>
+            </li>
+            <li class="our-team-card">
+              <img src="./images/img2team.jpg" alt="женщина в очках в темном пиджаке" width="270" />
+              <p class="our-team-description">
+                <span class="our-team-unit">Ольга Репина</span>
+                <span class="our-team-position">Frontend Developer</span>
+              </p>
+            </li>
+            <li class="our-team-card">
+              <img
+                src="./images/img3team.jpg"
+                alt="Мужчина с бородой в светлой рубашке"
+                width="270"
+              />
+              <p class="our-team-description">
+                <span class="our-team-unit">Николай Тарасов</span>
+                <span class="our-team-position">Marketing</span>
+              </p>
+            </li>
+            <li class="our-team-card">
+              <img
+                src="./images/img4team.jpg"
+                alt="Мужчина в очках с бородой в темной футболке"
+                width="270"
+              />
+              <p class="our-team-description">
+                <span class="our-team-unit">Максим Ермаков</span>
+                <span class="our-team-position">UI Designer</span>
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
+
     <footer class="footer-section">
-      <a class="footer-logo" href="#"><span class="logo-part">Web</span>Studio</a>
-      <address class="footer-address">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <a class="footer-address-link link-color-change" href="mailto:info@example.com"
-          >info@example.com</a
-        >
-        <a class="footer-address-link link-color-change" href="tel:380991111111"
-          >+38 099 111 11 11</a
-        >
-      </address>
+      <div class="container">
+        <a class="footer-logo" href="#"><span class="logo-part">Web</span>Studio</a>
+        <address class="footer-address">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <a class="footer-address-link link-color-change" href="mailto:info@example.com"
+            >info@example.com</a
+          >
+          <a class="footer-address-link link-color-change" href="tel:380991111111"
+            >+38 099 111 11 11</a
+          >
+        </address>
+      </div>
     </footer>
   </body>
 </html>
