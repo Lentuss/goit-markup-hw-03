@@ -33,16 +33,12 @@ img {
 }
 
 /* header styles */
-
 .header-section {
+  border-bottom: 1px solid #ececec;
+}
+.header-section div {
   display: flex;
   align-items: center;
-
-  border-bottom: 1px solid #ececec;
-
-  border-color: #ececec;
-  border-width: 1px;
-  border-bottom-style: solid;
 }
 .logo {
   padding: 24px 0 25px 0;
@@ -151,6 +147,7 @@ img {
 
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03px;
 }
 /* what we do section styles */
 .what-we-do-section {
@@ -177,7 +174,7 @@ img {
   background-color: var(--light-background-color);
 }
 .our-team-title {
-  margin-bottom: 50px;
+  margin: 0 0 50px;
 
   font-size: 36px;
   line-height: 1.17;
@@ -201,7 +198,7 @@ img {
 }
 .our-team-unit {
   display: inline-block;
-  margin-bottom: 10px;
+  margin: 0 0 10px;
 
   color: var(--title-color);
   font-size: 16px;
@@ -209,6 +206,7 @@ img {
   line-height: 1.19;
 }
 .our-team-position {
+  margin: 0;
   font-size: 16px;
   line-height: 1.19;
 }
@@ -218,7 +216,9 @@ img {
   padding: 94px 0;
 }
 .portfolio-title {
-  display: none;
+  height: 0;
+  overflow: hidden;
+  position: absolute;
 }
 .filter-list {
   display: flex;
@@ -254,14 +254,14 @@ img {
   flex-wrap: wrap;
   justify-content: center;
   margin-right: -30px;
-  margin-top: -30px;
+  margin-bottom: -30px;
 }
 .project-list a {
   text-decoration: none;
   color: var(--main-text-color);
 }
 .project-card {
-  flex-basis: calc(100% / 3 - 60px);
+  flex-basis: calc((100% - 90px) / 3);
   margin: 0 30px 30px 0;
 }
 
@@ -288,7 +288,7 @@ img {
 }
 .footer-logo {
   display: inline-block;
-  padding-bottom: 20px;
+  margin-bottom: 20px;
 
   font-family: 'Raleway', sans-serif;
   color: #fff;
@@ -315,6 +315,5 @@ img {
 }
 .footer-address-link:not(:last-child),
 .footer-address p {
-  padding: 0 0 9px;
-  margin: 0;
+  margin: 0 0 9px;
 }
